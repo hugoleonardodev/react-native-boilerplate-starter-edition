@@ -1,5 +1,30 @@
 {
   "main": "index.js",
+  "name": "@hugoleonardodev/react-native-boilerplate-starter-edition",
+  "version": "1.0.0",
+  "description": "A React Native boilerplate for people who are starting to code with this technology",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugoleonardodev/react-native-boilerplate-starter-edition"
+  },
+  "author": "Hugo Leonardo <hugoleonardo.dev@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://www.linkedin.com/in/hugo-leonardo-matosinhos-de-souza/",
+  "keywords": [
+    "react",
+    "native",
+    "boilerplate",
+    "navigation",
+    "react-native",
+    "starter-kit",
+    "styled-components",
+    "prop-types",
+    "eslint",
+    "babel",
+    "jest",
+    "react-native-testing-library",
+    "expo"
+  ],
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -43,15 +68,6 @@
     "react-test-renderer": "~16.13.1"
   },
   "jest": {
-    "preset": "react-native",
-    "transformIgnorePatterns": [
-      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
-    ],
-    "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"],
-    "setupFiles": [
-      "./node_modules/react-native-gesture-handler/jestSetup.js",
-      "./jest.setup.js"
-    ],
     "collectCoverage": true,
     "collectCoverageFrom": [
       "**/*.{js,jsx}",
@@ -64,6 +80,15 @@
       "index.js",
       "setup.js",
       "metro.config.js"
+    ],
+    "preset": "react-native",
+    "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"],
+    "setupFiles": [
+      "./node_modules/react-native-gesture-handler/jestSetup.js",
+      "./jest.setup.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
     ]
   },
   "private": true
