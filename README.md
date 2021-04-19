@@ -34,12 +34,14 @@ Check "script" section on package.json for more details.
 
 #### 7. File system structure
 
+```
 src/
 ├─ components/
 │  ├─ button.js
 │  ├─ button.style.js
 │  └─ button.test.js
 ...
+```
 
 #### 7. References
 
