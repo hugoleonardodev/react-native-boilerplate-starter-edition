@@ -45,16 +45,16 @@ src/
 
 #### 7. References
 
-[expo]('https://docs.expo.io/')
-[react-native]('https://reactnative.dev/')
-[react-navigation]('https://reactnavigation.org/')
-[react-test-renderer]('https://www.npmjs.com/package/react-test-renderer/v/16.13.0')
-[jest]('https://jestjs.io/')
-[react-native-testing-library]('https://callstack.github.io/react-native-testing-library/')
-[prop-types]('https://www.npmjs.com/package/prop-types')
-[styled-components]('https://styled-components.com/')
-[eslint]('https://eslint.org/')
-[babel]('https://babeljs.io/')
+* [expo](https://docs.expo.io/)
+* [react-native](https://reactnative.dev/)
+* [react-navigation](https://reactnavigation.org/)
+* [react-test-renderer](https://www.npmjs.com/package/react-test-renderer/v/16.13.0)
+* [jest](https://jestjs.io/)
+* [react-native-testing-library](https://callstack.github.io/react-native-testing-library/)
+* [prop-types](https://www.npmjs.com/package/prop-types)
+* [styled-components](https://styled-components.com/)
+* [eslint](https://eslint.org/)
+* [babel](https://babeljs.io/)
 
 Happy coding!
 
