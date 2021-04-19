@@ -54,4 +54,4 @@ buck-out/
 web-build/
 
 # Test Coverage
-coverage/\*\*/*
+/coverage/\*\*/*

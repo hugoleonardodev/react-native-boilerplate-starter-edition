@@ -30,6 +30,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react-native": "^7.2.0",
     "babel-jest": "~25.2.6",
     "eslint": "^7.24.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -45,6 +47,7 @@
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
     ],
+    "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"],
     "setupFiles": [
       "./node_modules/react-native-gesture-handler/jestSetup.js",
       "./setup.js"
@@ -56,7 +59,7 @@
       "!**/node_modules/**",
       "!**/babel.config.js",
       "!**/setup.js"
-    ], 
+    ],
     "coveragePathIgnorePatterns": [
       "index.js",
       "setup.js",
