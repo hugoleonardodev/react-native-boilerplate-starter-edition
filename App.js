@@ -1,7 +1,7 @@
 // In App.js in a new project
 // import 'react-native-gesture-handler';
 
-import * as React from 'react';
+import React from 'react';
 import {
   View, Text, Button, StatusBar,
 } from 'react-native';
@@ -10,12 +10,12 @@ import { NavigationContainer } from '@react-navigation/native';
 
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={ { flex: 1, alignItems: 'center', justifyContent: 'center' } }>
       <StatusBar />
       <Text>Home Screen</Text>
       <Button
         title="Go to Details"
-        onPress={() => navigation.navigate('Details')}
+        onPress={ () => navigation.navigate('Details') }
       />
     </View>
   );
@@ -23,7 +23,7 @@ function HomeScreen({ navigation }) {
 
 function DetailsScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={ { flex: 1, alignItems: 'center', justifyContent: 'center' } }>
       <StatusBar />
       <Text>Details Screen</Text>
     </View>
@@ -36,8 +36,8 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Details" component={DetailsScreen} />
+        <Stack.Screen name="Home" component={ HomeScreen } />
+        <Stack.Screen name="Details" component={ DetailsScreen } />
       </Stack.Navigator>
     </NavigationContainer>
   );
