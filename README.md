@@ -4,7 +4,7 @@
 
 This is a simple boilerplate for Reac Native app. For JavaScript and React former developers. It includes most of the necessary tools to create an app and test. Passing through props validation with PropTypes and styling with Style Components. All dependencies links are listed below.
 
-This boilerplate was created with [expo-cli]('https://docs.expo.io/workflow/expo-cli/'). [expo]('https://docs.expo.io/') is a framework and a platform for universal React applications. It is a set of tools and services built around React Native and native platforms that help you develop, build, deploy, and quickly iterate on iOS, Android, and web apps from the same JavaScript/TypeScript codebase.
+This boilerplate was created with [expo-cli](https://docs.expo.io/workflow/expo-cli/). [expo](https://docs.expo.io/) is a framework and a platform for universal React applications. It is a set of tools and services built around React Native and native platforms that help you develop, build, deploy, and quickly iterate on iOS, Android, and web apps from the same JavaScript/TypeScript codebase.
 
 ### Before start
 
@@ -16,7 +16,7 @@ This boilerplate was created with [expo-cli]('https://docs.expo.io/workflow/expo
 
 `npm install`
 
-#### 3. Run the app on the browser with expo web and install [expo-cli]('https://docs.expo.io/workflow/expo-cli/')
+#### 3. Run the app on the browser with expo web and install [expo-cli](https://docs.expo.io/workflow/expo-cli/)
 
 `npm run web`
 
