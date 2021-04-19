@@ -1,0 +1,12 @@
+{
+  "name": "minimal-bare",
+  "displayName": "minimal-bare",
+  "expo": {
+    "name": "minimal-bare",
+    "slug": "minimal-bare",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
