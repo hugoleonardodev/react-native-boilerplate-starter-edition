@@ -5,7 +5,8 @@
     "ios": "react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test-coverage": "jest --coverage"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
@@ -47,6 +48,19 @@
     "setupFiles": [
       "./node_modules/react-native-gesture-handler/jestSetup.js",
       "./setup.js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/coverage/**",
+      "!**/node_modules/**",
+      "!**/babel.config.js",
+      "!**/setup.js"
+    ], 
+    "coveragePathIgnorePatterns": [
+      "index.js",
+      "setup.js",
+      "metro.config.js"
     ]
   },
   "private": true
