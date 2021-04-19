@@ -2,7 +2,7 @@
 
 ## A boilerplate to code a native App with tests and navigation
 
-This is a simple boilerplate for Reac Native app. For JavaScript and React former developers. It includes most of the necessary tools to create an app and test. Passing through props validation with PropTypes and styling with Style Components. All dependencies links are listed below.
+This is a simple boilerplate for Reac Native app. For JavaScript and React former developers. It includes most of the necessary tools to create an app and test. Passing through props validation with PropTypes and styling with Style Components. All dependencies links are listed below. If you want to go foward and install more depencies like Redux or any other, check this guide before [expo-guides](https://docs.expo.io/guides/). If you don't find anything, install dependencies with `npm` or `yarn`.
 
 This boilerplate was created with [expo-cli](https://docs.expo.io/workflow/expo-cli/). In case you don't know, [expo](https://docs.expo.io/) is a framework and a platform for universal React applications. It is a set of tools and services built around React Native and native platforms that help you develop, build, deploy, and quickly iterate on iOS, Android, and web apps from the same JavaScript/TypeScript codebase.
 
@@ -37,9 +37,16 @@ Check "script" section on package.json for more details.
 ```
 src/
 ├─ components/
-│  ├─ button.js
-│  ├─ button.style.js
-│  └─ button.test.js
+│  ├─ Button.js
+│  ├─ Button.style.js
+│  └─ Button.test.js
+├─ screens/
+│  ├─ HomeScreen.js
+│  ├─ HomeScreen.style.js
+│  └─ HomeScreen.test.js
+│  ├─ DetailsScreen.js
+│  ├─ DetailsScreen.style.js
+│  └─ DetailsScreen.test.js
 ...
 ```
 
