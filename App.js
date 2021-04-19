@@ -1,5 +1,5 @@
 // In App.js in a new project
-// import 'react-native-gesture-handler';
+import 'react-native-gesture-handler';
 
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
